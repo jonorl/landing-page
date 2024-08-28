@@ -196,3 +196,12 @@ button.sign-up-button2 {
     color: #F9FAF8;
     font-size: 12px;
 }
+
+.footer {
+    background-color: #1F2937;
+    font-size: 14px;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
