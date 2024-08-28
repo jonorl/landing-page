@@ -71,7 +71,7 @@ button {
     color: #e5e7eb;
     margin-top: 16px;
     padding: 8px;
-    border: 0;
+    border-width: 0;
 }
 
 .placeholder {
@@ -151,4 +151,48 @@ button {
     font-size: 20px;
     font-style: normal;
     padding-top: 24px;
+}
+
+.bottom-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:100px;
+    padding-right:200px;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+button.sign-up-button2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 110px;
+    margin-top: -1px;
+    height: 40px;
+    color: #e5e7eb;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid #e5e7eb;
+}
+
+.bottom-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.call-to-action {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.call-to-action-subtext {
+    color: #F9FAF8;
+    font-size: 12px;
 }
