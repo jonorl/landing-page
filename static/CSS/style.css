@@ -74,7 +74,7 @@ button {
     border: 0;
 }
 
-img {
+.placeholder {
     display: flex;
     background-color: grey;
     color: white;
@@ -83,4 +83,48 @@ img {
     margin-top: 100px;
     padding: 60px;
     height: 60px;
+}
+
+.random-info-title {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+    padding: 24px;
+}
+
+.boxes {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.random-image-container {
+    display: flex;
+    flex: 1;
+    padding-left: 600px;
+    padding-right: 600px;
+    justify-content:space-around;
+
+}
+
+.random-img {
+    display: flex;
+    border:5px solid #3882f6;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 20px;
+
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
 }
