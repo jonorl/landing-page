@@ -80,9 +80,11 @@ button {
     color: white;
     align-items: center;
     align-content: center;
+    border-radius: 15px;
     margin-top: 100px;
-    padding: 60px;
-    height: 60px;
+    /* padding: 60px; */
+    height: 195px;
+    width: 180px;
 }
 
 .random-info-title {
